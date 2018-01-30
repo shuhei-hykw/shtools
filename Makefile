@@ -10,7 +10,7 @@ links	:= $(addprefix $(prefix)/,$(shells:.sh=))
 #_______________________________________________________________________________
 .PHONY: all install show clean uninstall
 
-all:
+all: install
 
 install: $(links)
 
